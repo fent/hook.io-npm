@@ -1,24 +1,20 @@
-# MOD [![Build Status](https://secure.travis-ci.org/fent/MOD.png)](http://travis-ci.org/fent/MOD)
+# hook.io-npm [![Build Status](https://secure.travis-ci.org/fent/hook.io-npm.png)](http://travis-ci.org/fent/hook.io-npm)
 
-[short consice explanation]
+A hook that emits module updates from the npm repository.
 
 
 # Usage
 
-```js
+```bash
+hook.io-npm
 ```
 
-
-# Motive
-[optional]
-
-
-# API
+For `config.json` options, look at the constructor for [npm-updates](https://github.com/fent/npm-updates).
 
 
 # Install
 
-    npm install MOD
+    npm -g install hook.io-npm
 
 
 # Tests
