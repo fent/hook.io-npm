@@ -1,0 +1,36 @@
+{
+  "name": "hook.io-npm",
+  "description": "Hook that emits on npm module updates.",
+  "keywords": ["hook.io", "npm", "event emitter", "notification"],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fent/hook.io-npm.git"
+  },
+  "author": "Roly Fentanes (https://github.com/fent)",
+  "main": "./lib/index.js",
+  "bin": {
+    "hook.io-npm": "./bin/hook.io-npm"
+  },
+  "scripts": {
+    "test": "mocha -R spec test/*-test.js"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "hook.io": "0.8.6",
+    "npm-updates": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "0.x.x",
+    "nock": "0.11.x"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url" : "http://github.com/fent/hook.io-npm/raw/master/LICENSE"
+  }]
+}
