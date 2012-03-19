@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var NPMHook = require('..').NPMHook;
+
+var hook = new NPMHook({
+  name: 'npm',
+  debug: true
+});
+
+hook.start();
