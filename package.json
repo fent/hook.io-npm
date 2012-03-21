@@ -2,7 +2,7 @@
   "name": "hook.io-npm",
   "description": "Hook that emits on npm module updates.",
   "keywords": ["hook.io", "npm", "event emitter", "notification"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/fent/hook.io-npm.git"
@@ -22,7 +22,7 @@
     "node": "*"
   },
   "dependencies": {
-    "hook.io": "0.8.6",
+    "hook.io": "0.8.x",
     "npm-updates": "0.1.x"
   },
   "devDependencies": {
